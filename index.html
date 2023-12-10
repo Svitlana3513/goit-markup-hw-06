@@ -299,13 +299,31 @@
         </section>
 
         <!--our portfolio-->
-        <!--<section class="section-portfolio" id="our-portfolio">
+        <section class="section-portfolio" id="our-portfolio">
         <div class="container">
           <h2 class="header-portfolio">Our Portfolio</h2>
             <ul class="menu-portfolio list">
             <li class="list-portfolio">
                 <div class="image-overlay">
-                <img src="./images/portfolio/banking.jpg" alt="banking-app" width="360" height="300" />
+                <picture>
+                    <source
+                    srcset="
+                    ./images/portfolio/banking1x.jpg 1x,
+                    ./images/portfolio/banking2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                    />
+                    <source
+                    srcset="./images/portfolio/banking-tablet1x.jpg 1x,
+                    ./images/portfolio/banking-tablet2x.jpg 2x"
+                    media="(min-width:767px)"/>
+                    <source 
+                    srcset="./images/portfolio/banking-mobile1x.jpg 1x,
+                            ./images/portfolio/banking-mobile2x.jpg 2x" 
+                    media="(max-width:767px)"/>
+                    <img src="./images/portfolio/banking.jpg" alt="banking-app" width="360" height="300" />
+                </picture>    
+                
                     <p class="overlay">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App

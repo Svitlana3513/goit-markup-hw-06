@@ -408,6 +408,11 @@ body {
 
 /*========/MOBILE OUR TEAM STYLES======*/
 
+/*========MOBILE PORTFOLIO STYLES======*/
+
+
+/*========/MOBILE PORTFOLIO STYLES======*/
+
         /*========TABLET======*/
 
 @media screen and (min-width:768px) 
@@ -565,23 +570,7 @@ max-width: 768px;
 
 /*========TABLET OUR TEAM STYLES======*/
 
-.menu-our-team {
-    display: flex;
-    gap: 24px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-}
-.container{
-    width: 584px;
-}
-
-.list-our-team{
-    width: calc((100% - 24px) / 2);
-}
-
-
-/*========TABLET OUR TEAM STYLES======*/
+/*========/TABLET OUR TEAM STYLES======*/
 
 }
 
@@ -714,5 +703,10 @@ font-weight: 500;
 }
 
 /*========DESKTOP FEATURES STYLES======*/
+
+/*========DESKTOP OUR TEAM STYLES======*/
+
+/*========/DESKTOP OUR TEAM STYLES======*/
+
 }
 
