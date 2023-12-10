@@ -410,11 +410,6 @@ width: 296px;
     gap: 24px;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: #404BBF;
-}
-
 /*========/MOBILE OUR TEAM STYLES======*/
 
 /*========MOBILE PORTFOLIO STYLES======*/
@@ -594,11 +589,15 @@ max-width: 768px;
     justify-content: center;
     align-items: center;
     
+    
 }
 .team-container{
     width:584px;
 }
 
+.list-our-team{
+    margin-bottom: 64px;
+}
 
 
 /*========/TABLET OUR TEAM STYLES======*/
@@ -683,7 +682,15 @@ link-address {
     margin-bottom: 48px;
 }
 
-/*========DESKTOP HERO STYLES======*/
+.main-button:hover {
+    background-color: #404BBF;
+}
+
+.main-button:focus {
+    background-color: #404BBF
+}
+
+/*========/DESKTOP HERO STYLES======*/
 
 /*========DESKTOP FEATURES STYLES======*/
 
@@ -736,6 +743,31 @@ font-weight: 500;
 /*========DESKTOP FEATURES STYLES======*/
 
 /*========DESKTOP OUR TEAM STYLES======*/
+
+.our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.team-container {
+    width: 1128px;
+}
+
+.list-our-team {
+    width: calc((100% - 72px) / 4);
+}
+
+.menu-our-team {
+    display: flex;
+    gap: 24px;
+}
+
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #404BBF;
+}
 
 /*========/DESKTOP OUR TEAM STYLES======*/
 
